@@ -37,9 +37,9 @@ Here the private and public variables and functions are declared. The private va
 
 ![](https://github.com/paulmathai01/MRI-CPP-OPENCV/blob/master/Picture%203.png)
 
-  1. m ![](https://github.com/paulmathai01/MRI-CPP-OPENCV/blob/master/Picture%204.png) edianBlur: the medianBlur function is for the variable kernel size. The for loop iterates through the images in the array, and it then parses through each element of the image starting from k/2 to compensate for the kernel size. A temporary 1D array is created to sort and find the median value, and then the kernel is populated through the nested for loops. Then the median value is set to the new image.
+  1. ![](https://github.com/paulmathai01/MRI-CPP-OPENCV/blob/master/Picture%204.png) medianBlur: the medianBlur function is for the variable kernel size. The for loop iterates through the images in the array, and it then parses through each element of the image starting from k/2 to compensate for the kernel size. A temporary 1D array is created to sort and find the median value, and then the kernel is populated through the nested for loops. Then the median value is set to the new image.
 
-  1. s ![](https://github.com/paulmathai01/MRI-CPP-OPENCV/blob/master/Picture%205.png) etvalues: The setvalues function is used to apply the brightness and contrast values. Scale conversion is used to control the contrast value, and the values are then inputted into the new image.
+  1. ![](https://github.com/paulmathai01/MRI-CPP-OPENCV/blob/master/Picture%205.png) setvalues: The setvalues function is used to apply the brightness and contrast values. Scale conversion is used to control the contrast value, and the values are then inputted into the new image.
 1. It is important to note that after the medianBlur and setvalues functions, a win\_mat function is used to show and save the original and new images.
 
 ![](https://github.com/paulmathai01/MRI-CPP-OPENCV/blob/master/Picture%206.png)
