@@ -1,0 +1,3 @@
+﻿  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+opencv_world420d.lib(opencv_world420d.dll) : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'x86'
